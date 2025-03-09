@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(238, 232, 224);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    background-color: #1f2937;
+    color: white;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+button{
+    gap: 8px;
+
+}
+button.nav-button{
+    cursor: pointer;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(201, 233, 152);
+}
+
+#content {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+img {
+    max-width: 600px;
+    width: 90%;
+    border-radius: 8px;
+}
+
+p{
+    margin: 0;
+    max-width: 600px;
+    text-align: center;
+
+}
+
+.menu-list{
+    display: grid;
+    grid-template-columns: repeat(autofill,minmax(240px,1fr));
+    gap: 10px;
+    max-width: 900px;
+    width: 100%;
+}
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 8px;
+    background-color: #154952;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.menu-item h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color:aliceblue;
+    font-weight: bold;
+    height: 4rem;
+}
+
+.menu-item p {
+    margin: 0;
+    color: aliceblue;
+    font-size: 1rem;
+    text-align: left;
+    height: 4rem;
+}
+
+.price {
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 1rem;
+}
